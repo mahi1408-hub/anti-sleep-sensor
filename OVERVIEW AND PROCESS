@@ -6,9 +6,11 @@ A lightweight, wearable safety prototype modeled after a behind-the-ear hearing 
 
 ## 👥 Authors & Contributors
 
-* **[Your Name Here]**
-* **[Friend's Name 1]**
-* **[Friend's Name 2]**
+by:
+Avula Mahasvin
+Vamshidhar.R
+Yashasvi.s
+varsha 
 
 ---
 
@@ -20,7 +22,6 @@ Drowsy driving is a leading cause of highway accidents worldwide. This project p
 
 ## 🛠️ Design & Mechanics
 
-```text
                ┌─────────────────────────┐
                │ Top Joint: Tilt Sensor  │ (Contains rolling ball switch)
                └────┬───────────────┬────┘
