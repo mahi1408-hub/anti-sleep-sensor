@@ -1,0 +1,55 @@
+# Behind-the-Ear Anti-Sleep Driver Sensor 🚗💤🎧
+
+A lightweight, wearable safety prototype modeled after a behind-the-ear hearing aid. Designed to detect driver drowsiness in real time using simple gravity mechanics and a closed analog circuit.
+
+---
+
+## 👥 Authors & Contributors
+
+* **[Your Name Here]**
+* **[Friend's Name 1]**
+* **[Friend's Name 2]**
+
+---
+
+## 📌 Project Overview
+
+Drowsy driving is a leading cause of highway accidents worldwide. This project presents a low-cost, non-invasive wearable alert system. Mounted comfortably over the user's outer ear, the device uses a tilt switch placed at the top joint to trigger an immediate alarm whenever the driver's head nods forward due to exhaustion.
+
+---
+
+## 🛠️ Design & Mechanics
+
+```text
+               ┌─────────────────────────┐
+               │ Top Joint: Tilt Sensor  │ (Contains rolling ball switch)
+               └────┬───────────────┬────┘
+                    │               │
+             (+) Positive       (-) Negative
+                Wire            Wire
+                    │               │
+                    ▼               ▼
+               ┌─────────────────────────┐
+               │ Side Loop: Micro Buzzer │ (Mounted on outer ear frame)
+               └────┬───────────────┬────┘
+                    │               │
+                    └──────[ Battery ]┘ (Powers the loop)
+1.Hearing-Aid Form Factor: The casing hooks over the top of the ear to keep it lightweight, stable, and ergonomic.
+
+2.Top Joint (Tilt Switch): A mechanical tilt sensor housing a small conductive metal ball is positioned at the top joint of the frame.
+
+3.Trigger Mechanism: While driving with proper posture, the circuit remains OPEN. When sleepiness causes the head to nod forward, gravity pulls the metal ball to the front of the sensor, bridging the internal contacts to CLOSE the circuit.
+
+4.Side Loop (Alert Buzzer): Closing the loop immediately routes power to the piezo buzzer on the side of the casing, delivering a loud sound next to the driver's ear to instantly wake them up.
+
+CIRCUIT DIAGRAM:
+[ Power Source (+) ] ───> [ Top Joint: Tilt Sensor ] ───> [ Side Loop: Buzzer ] ───> [ Ground / Battery (-) ]
+
+COMPONENTS:
+Tilt Sensor: Mechanical ball-type switch.
+
+Alert Unit: Miniature 3V/5V Piezo Buzzer.
+
+Power Source: Compact button cell battery.
+
+Frame: Custom behind-the-ear casing & connecting wires.
